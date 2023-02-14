@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgba(242, 247, 255, 0.5);
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-burger {
+    display: none;
+}
+
+.tocha__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+
+}
+
+.toche__left {
+    display: flex;
+    align-items: center;
+
+
+}
+
+b {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.1106px;
+    line-height: 21px;
+    color: #1D2530;
+
+}
+
+.tocha-list {
+    width: 100%;
+
+    max-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tocha-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* black */
+    color: #1D2530;
+}
+
+.active {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #685ED6;
+
+}
+
+.tocha-hero-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.techo-heading {
+    width: 383px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #685ED6;
+}
+
+.tocha-heading-span {
+    color: #685ED6;
+}
+
+.tocha-heading-paragraph {
+    position: relative;
+    top: 20px;
+    width: 482px;
+    height: 102px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+
+
+    /* black */
+
+    color: #1D2530;
+}
+
+.tocha-heading-paragraph-span {
+    color: #685ED6;
+}
+
+.tocha-heading-hero-left {
+    width: 690px;
+    height: 555px;
+}
+
+.tocha-heading-button {
+    position: relative;
+    top: 50px;
+    width: 168px;
+    height: 48px;
+    background: #685ED6;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+    border: none;
+}
+
+.tocha-heading-button:active {
+    background-color: #3f30e6;
+    color: gray;
+}
+
+
+
+.tocha-heading-hero-left {
+    position: relative;
+    top: 100px;
+}
+
+@media only screen and (max-width:848px) {
+    .container {
+        width: 90%;
+        max-width: 848px;
+    }
+
+    .header-logo {
+        width: 55px;
+        height: 42px;
+    }
+
+    .tocha-list {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #685ED6;
+    }
+
+    b {
+        font-weight: 700;
+        font-size: 28.1106px;
+        line-height: 21px;
+    }
+
+    .tocha-heading {
+        width: 245px;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .tocha-heading-paragraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        width: 249px;
+        margin-top: 32px;
+    }
+
+    .tocha-heading-hero-left {
+        width: 420px;
+        height: 338px;
+    }
+
+}
+
+@media only screen and (max-width:420px) {
+    .container {
+        width: 90%;
+        max-width: 420px;
+    }
+
+    .tocha-hero-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header-logo {
+        width: 39px;
+        height: 28px;
+    }
+
+    .tocha__left {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    b {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .tocha-list li {
+        display: none;
+    }
+
+    .header-burger {
+        display: block;
+    }
+
+    .tocha-haeding {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        width: 245px;
+        margin-top: 45px;
+    }
+
+    .tocha-heading-paragraph {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        width: 330px;
+    }
+    .tocha-heading-hero-left{
+        width: 330px;
+        height: 266px;
+    }
+
+}
